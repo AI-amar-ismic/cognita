@@ -27,6 +27,7 @@ def scrape_article(url):
     except Exception as e:
         print(f"An error occurred: {e}")
         return None
+    
 
 # Example usage
 if __name__ == "__main__":
